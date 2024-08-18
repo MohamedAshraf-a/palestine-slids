@@ -1,0 +1,39 @@
+h1{
+    font-family:'Courier New', Courier, monospace;
+    font-size:2cm;
+}
+
+
+i{
+    cursor: pointer;
+}
+.imgText{
+    bottom: 10px;
+    width: 80%;
+left: 10%;
+
+}
+
+.item img{
+    height: 300px;
+    width: 600px;
+}
+
+#lightBoxContainer{
+    
+ 
+    background-color:rgba(0, 0,0, 0.5);
+}
+#lightBox{
+    background-image: url("../img/p1.JPG");
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+    height: 500px;
+}
+
+@media screen and (max-width:667px)
+{
+    #lightBox{width: 100%;}
+    
+}
